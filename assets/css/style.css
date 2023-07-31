@@ -6,12 +6,12 @@ html {
 }
 
 * {
+	font-weight: 14px;
     box-sizing: border-box;
-    font-weight: 14px;
 }
 
 .notion-modal-window {
-    position: absolute;
+	position: absolute;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -20,8 +20,8 @@ html {
     fill: currentcolor;
     line-height: 1.5;
     -webkit-font-smoothing: auto;
-    background-color: rgba(0, 0, 0, 0.4);
-
+	background-color: rgba(248, 92, 112, 0.1);
+	
 }
 
 .modal-window {
@@ -32,7 +32,7 @@ html {
     margin-left: auto;
     margin-top: auto;
     margin-bottom: auto;
-    max-width: 970px;
+    max-width: 1400px;
     box-shadow: rgba(15, 15, 15, 0.016) 0px 0px 0px 1px, rgba(15, 15, 15, 0.03) 0px 3px 6px, rgba(15, 15, 15, 0.06) 0px 9px 24px;
     border-radius: 4px;
     background-color: white;
@@ -40,7 +40,7 @@ html {
     overflow-y: scroll;
     height: calc(100% - 144px);
     border-radius: 3px;
-    top: 72px;
+    top: 100px;
     left: 72px;
     right: 72px;
 }
